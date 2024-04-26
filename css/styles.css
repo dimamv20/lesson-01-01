@@ -1,0 +1,44 @@
+:root{
+ --main-font-family: 'Roboto';
+ --base-color: #000000;
+ --text-size: 16px;
+ --text-color: black;
+}
+
+body{
+    font-family: var(--main-font-family);
+    color: var(--base-color);
+    font-size: var(-text-size);
+    color: var(--text-color);
+    line-height: 1.2%;
+}
+.a:link{
+    color:black;
+}
+.a:active, a:focus{
+    color:#7b119b;
+
+}
+
+.filter{
+    color:#4D5AE5;
+}
+
+button {
+    cursor: pointer;
+  }
+
+p{
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2, h3{
+    color: #2E2F42;
+}
+
+footer{
+    color: #ffffff;
+    background-color: #2E2F42;
+ 
+}
