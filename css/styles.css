@@ -1,22 +1,27 @@
 :root{
  --main-font-family: 'Roboto';
- --base-color: #000000;
  --text-size: 16px;
  --text-color: black;
 }
 
 body{
     font-family: var(--main-font-family);
-    color: var(--base-color);
-    font-size: var(-text-size);
     color: var(--text-color);
-    line-height: 1.2%;
+    background-color: #ffffff;
 }
-.a:link{
-    color:black;
+
+.footer-logo:link{
+    color:white;
 }
-.a:active, a:focus{
-    color:#7b119b;
+
+
+a:link{
+    color: #2E2F42;
+    text-decoration: none;
+}
+a:active,a:hover{
+    color:#404BBF;
+    text-decoration: none;
 
 }
 
@@ -24,9 +29,19 @@ body{
     color:#4D5AE5;
 }
 
-button {
+button{
+    color:#4D5AE5;
     cursor: pointer;
+    background-color: #F4F4FD;
+    border:none;
+    padding: 12px 24px 12px 24px;
   }
+
+button:hover{
+    color:#ffffff;
+    cursor:pointer;
+    background-color: #404BBF;
+}
 
 p{
     font-style: normal;
@@ -42,3 +57,15 @@ footer{
     background-color: #2E2F42;
  
 }
+span{
+    color: #4D5AE5;
+}
+
+.navigation :link{
+    color: #2E2F42;
+}
+
+.navigation:hover{
+    color:#404BBF;
+}
+
